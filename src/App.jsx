@@ -21,6 +21,7 @@ import {
   createTodoListPlugin,
   createUnderlinePlugin,
   ELEMENT_OL,
+  ELEMENT_PARAGRAPH,
   ELEMENT_UL,
   getPlatePluginType,
   HeadingToolbar,
@@ -41,7 +42,7 @@ export default function App() {
     createReactPlugin(),
     createHistoryPlugin(),
 
-    // createParagraphPlugin(),
+    createParagraphPlugin(),
     // createBlockquotePlugin(),
     // createCodeBlockPlugin(),
     // createHeadingPlugin(),
@@ -71,6 +72,7 @@ export default function App() {
 
   const initialValue = [
     {
+      type: ELEMENT_PARAGRAPH,
       children: [
         {
           text: 'This is editable plain text with react and history plugins, just like a <textarea>!',
