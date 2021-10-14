@@ -1,0 +1,24 @@
+{
+  "name": "plate-test",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@styled-icons/material": "^10.34.0",
+    "@udecode/plate": "^5.2.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "slate": "^0.66.5",
+    "slate-history": "^0.66.0",
+    "slate-hyperscript": "^0.66.0",
+    "slate-react": "^0.66.7",
+    "styled-components": "^5.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^1.0.0",
+    "vite": "^2.6.4"
+  }
+}
